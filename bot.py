@@ -18,7 +18,7 @@ async def start_bot(message: types.Message):
 
     await message.reply(f"Hi {user_full_name}")
 
-    for i in range(15):
+    for i in range(10):
         time.sleep(3)
 
         await bot.send_message(user_id, MSG.format(user_name))
